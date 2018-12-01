@@ -1,0 +1,42 @@
+
+// 1250px
+@mixin mediaQuery_1250 {
+    @media (max-width: 1250px) {
+        @content;
+    }
+}
+
+// 1040px
+@mixin mediaQuery_1040 {
+    @media (max-width: 1040px) {
+        @content;
+    }
+}
+
+// 830px
+@mixin mediaQuery_830 {
+    @media (max-width: 830px) {
+        @content;
+    }
+}
+
+// 740px
+@mixin mediaQuery_740 {
+    @media (max-width: 740px) {
+        @content;
+    }
+}
+
+// 600px
+@mixin mediaQuery_600 {
+    @media (max-width: 600px) {
+        @content;
+    }
+}
+
+// 500px
+@mixin mediaQuery_500 {
+    @media (max-width: 500px) {
+        @content;
+    }
+}

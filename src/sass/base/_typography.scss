@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css?family=Hind+Vadodara:400,700');
+
+body {
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+// Text styles
+.text-normal {
+    // font-size: 
+    color: $color_darkgray;
+    font-weight: $text_normal_fontweight;
+}
+
+.text-heading {
+    font-size: 20px;
+    color: $text_normal_color;
+    font-weight: $text_normal_fontweight;
+}
+
+.text-small {
+    font-size: 14px;
+}
+
+.text-large {
+    font-size: 27px;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+// Text colors
+.text-purple {
+    color: $color_purple;
+}
+
+.text-gray {
+    color: $color_darkgray;
+}
+
+.text-lightgray {
+    color: $color_lightgray;
+}
+
+.text-red {
+    color: $color_red;
+}
+
+.text-orange {
+    color: $color_orange;
+}
+
+.text-green {
+    color: $color_green;
+}
