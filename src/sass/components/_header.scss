@@ -1,0 +1,60 @@
+
+header {
+    position: relative;
+    padding: 3em 4em;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.logo {
+    font-weight: 900;
+    line-height: 1;
+    font-size: 2em;
+}
+
+#menu-button {
+    display: block;
+    width: 2.2em;
+    height: 2em;
+    cursor: pointer;
+    .line {
+        transition: all 0.3s ease-in-out;
+        background: $color_darkgray;
+        height: calc(2em / 3 - 0.28em);
+        margin-bottom: 0.28em;
+    }
+    .line:nth-of-type(2) {
+        width: 70%;
+    }
+    .line:last-child {
+        margin-bottom: 0;
+    }
+    &:hover {
+        .line:nth-of-type(2) {
+            width: 100%;
+        }
+    }
+}
+
+#menu-close-button {
+    display: block;
+    width: 2.2em;
+    height: 2em;
+    cursor: pointer;
+    .line {
+        transition: all 0.3s ease-in-out;
+        background: #fff;
+        height: calc(0.3em);
+        margin-bottom: 0.28em;
+    }
+    .line:last-child {
+        margin-bottom: 0;
+    }
+    .line:nth-of-type(1) {
+        transform:  translate(0, 0.8em) rotate(-45deg);
+    }
+    .line:nth-of-type(2) {
+        transform:  translate(0, 0.25em) rotate(45deg);
+    }
+}

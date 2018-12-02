@@ -5,6 +5,8 @@ const autoprefixer =    require('gulp-autoprefixer');
 const minifyJS =        require('gulp-uglify');
 const browserSync =     require('browser-sync').create();
 
+const gutil =           require('gulp-util');
+
 // Copy all HTML files
 gulp.task('copyHTML', () => {
     gulp.src('src/*.html')

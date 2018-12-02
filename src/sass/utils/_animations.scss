@@ -1,0 +1,25 @@
+.page.minimize {
+    animation-name: minimize;
+    animation-duration: 0.9s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes minimize {
+    0% { transform: scale(1); }
+    50% { transform: scale(0.7); }
+    100% { transform: scale(0.7) translateX(60%); }
+}
+
+.page.maximize {
+    animation-name: maximize;
+    animation-duration: 0.9s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes maximize {
+    0% { transform: scale(0.7) translateX(60%); }
+    50% { transform: scale(0.7) translateX(0); }
+    100% { transform: scale(1); }
+}

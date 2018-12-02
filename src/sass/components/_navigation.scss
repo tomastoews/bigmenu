@@ -1,0 +1,45 @@
+#navigation-background {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    .logo {
+        color: #fff;
+    }
+}
+
+.navigation-container {
+    height: 100%;
+    margin-top: -128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    #navigation {
+        display: inline-block;
+        margin-left: 10%;
+        ul {
+            li {
+                margin: 1.5em 0;
+                a {
+                    font-size: 1.5em;
+                    font-weight: 700;
+                    letter-spacing: 0.2em;
+                    color: #fff;
+                    text-decoration: none;
+                    transition: all 0.3s;
+                }
+                a:first-child {
+                    margin-top: 0;
+                }
+                a:last-child {
+                    margin-bottom: 0;
+                }
+                a:hover {
+                    color: $color_yellow;
+                }
+            }
+        }
+    }
+}

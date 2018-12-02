@@ -3,6 +3,7 @@
 @import 'utils/variables';
 @import 'utils/functions';
 @import 'utils/mixins';
+@import 'utils/animations';
 
 // Base
 @import 'base/reset';
@@ -10,3 +11,10 @@
 @import 'base/general';
 
 // Components
+@import 'components/navigation';
+@import 'components/header';
+@import 'components/button';
+@import 'components/pageOverlay';
+
+// Contents
+@import 'contents/home';

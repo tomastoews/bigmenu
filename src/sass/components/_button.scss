@@ -1,0 +1,19 @@
+.button {
+    border: none;
+    display: inline-block;
+    background-color: #fff;
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+    padding: 1.5em 3.5em;
+    border: 3px solid #000;
+    border-radius: 5em;
+    transition: all 0.3s;
+}
+.button:hover {
+    background-color: $color_yellow;
+    border-color: $color_yellow;
+}
+.button:focus {
+    outline: none;
+}
