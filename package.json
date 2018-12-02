@@ -1,7 +1,7 @@
 {
   "name": "bigmenu",
   "version": "1.0.0",
-  "description": "A big menu",
+  "description": "A big website menu built with HTML5 and CSS3",
   "main": "index.js",
   "author": "Tomas Töws",
   "license": "ISC",
