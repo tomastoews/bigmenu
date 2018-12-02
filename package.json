@@ -1,11 +1,8 @@
 {
-  "name": "backgroundmenu",
+  "name": "bigmenu",
   "version": "1.0.0",
-  "description": "A large background menu",
+  "description": "A big menu",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Tomas Töws",
   "license": "ISC",
   "devDependencies": {
