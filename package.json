@@ -4,14 +4,22 @@
   "description": "A big website menu built with HTML5 and CSS3",
   "main": "index.js",
   "author": "Tomas Töws",
-  "license": "ISC",
+  "license": "NOTLICENSED",
+  "scripts": {
+    "build": "gulp build"
+  },
   "devDependencies": {
-    "browser-sync": "^2.26.3",
-    "gulp": "^3.9.1",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^7.0.0",
     "gulp-clean-css": "^4.0.0",
+    "gulp-html-minifier2": "^1.1.11",
     "gulp-sass": "^4.0.2",
-    "gulp-uglify": "^3.0.1",
-    "gulp-util": "^3.0.8"
+    "gulp-uglify": "^3.0.2"
   }
 }
